@@ -2,6 +2,8 @@
   --primary-color: #f89c46;
   --secondary-color: #fff5c6;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --button-box: 0 1px 0 1px black, inset 0 1px 0 1px black, 0 0 0 1px black,
+    inset 0 0 0 1px black;
   --font: "Press Start 2P", cursive;
 }
 
@@ -9,7 +11,6 @@
   background-color: black;
   text-align: start;
   color: white;
-
   margin-bottom: 30px;
   padding: 130px 130px 50px 130px;
 }
@@ -31,11 +32,13 @@
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 20px 30px 20px 0px;
+
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 25px;
   text-decoration: none;
   text-transform: capitalize;
+  font-family: var(--font);
 }
 .navigation-links {
   display: flex;
@@ -43,13 +46,17 @@
 }
 .contact-link {
   background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+  border: 2px solid var(--primary-color);
+  box-shadow: var(--button-box);
   color: white;
   justify-content: center;
 }
 .about-link {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 2px;
+  background: white;
+  box-shadow: var(--button-box);
 }
 
 .skill-icons i {
