@@ -21,10 +21,13 @@
 }
 .hero h2 {
   font-size: 40px;
+  font-family: "Play", sans-serif;
+  font-weight: bold;
 }
 .hero h3 {
   font-size: 30px;
   line-height: 40px;
+  font-family: "Play", sans-serif;
 }
 
 .navigation-links a {
