@@ -2,12 +2,27 @@
   --primary-color: #f89c46;
   --secondary-color: #fff5c6;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font: "Press Start 2P", cursive;
 }
 
-#intro {
+.hero {
   background-color: black;
   text-align: start;
-  margin-top: 60px !important;
+  color: white;
+
+  margin-bottom: 30px;
+  padding: 130px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-family: var(--font);
+}
+.hero h2 {
+  font-size: 50px;
+}
+.hero h3 {
+  font-size: 30px;
 }
 
 .navigation-links a {
@@ -20,7 +35,6 @@
 .navigation-links {
   display: flex;
   margin-top: 40px;
-  justify-content: center;
 }
 .contact-link {
   background: var(--primary-color);
@@ -31,10 +45,6 @@
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-}
-
-.main-heading {
-  color: #f5f2fe;
 }
 
 .skill-icons i {
