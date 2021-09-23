@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #f89c46;
+  --secondary-color: #fff5c6;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 #intro {
   background-color: black;
+  text-align: start;
   margin-top: 60px !important;
 }
 
@@ -34,7 +35,6 @@
 
 .main-heading {
   color: #f5f2fe;
-  justify-content: start;
 }
 
 .skill-icons i {
