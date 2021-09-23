@@ -11,18 +11,20 @@
   color: white;
 
   margin-bottom: 30px;
-  padding: 130px;
+  padding: 130px 130px 50px 130px;
 }
 
 .hero h1 {
   font-size: 50px;
   font-family: var(--font);
+  line-height: 100px;
 }
 .hero h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 .hero h3 {
   font-size: 30px;
+  line-height: 40px;
 }
 
 .navigation-links a {
