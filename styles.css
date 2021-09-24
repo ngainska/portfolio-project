@@ -126,10 +126,31 @@ p {
   margin-top: 30px;
 }
 
+.main-about {
+  background-color: var(--primary-color);
+  padding: 130px 130px 50px 130px;
+  color: white;
+}
+
+#profile {
+  justify-content: center;
+  max-width: 60%;
+  margin: auto;
+  display: block;
+  box-shadow: var(--button-box);
+  border: 10px solid white;
+  border-radius: 2px;
+}
+
 @media (max-width: 576px) {
   .hero {
     justify-content: left;
     padding: 100px 50px 30px 20px;
+  }
+
+  .main-about {
+    padding: 100px 50px 30px 20px;
+    text-align: center;
   }
   .hero h1 {
     font-size: 30px;
