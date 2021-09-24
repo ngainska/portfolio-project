@@ -7,6 +7,10 @@
   --font: "Press Start 2P", cursive;
 }
 
+.navbar-brand img {
+  width: 60px;
+}
+
 .hero {
   background-color: black;
   text-align: start;
@@ -89,6 +93,7 @@ h3 {
 
 p {
   font-family: "Play", sans-serif;
+  font-size: 20px;
 }
 
 .script {
@@ -148,10 +153,6 @@ p {
     padding: 100px 50px 30px 20px;
   }
 
-  .main-about {
-    padding: 100px 50px 30px 20px;
-    text-align: center;
-  }
   .hero h1 {
     font-size: 30px;
     line-height: 50px;
@@ -200,5 +201,14 @@ p {
     display: block;
     text-align: center;
     margin: 0px 20px;
+  }
+
+  .main-about {
+    padding: 100px 50px 30px 20px;
+    text-align: center;
+    width: 107%;
+  }
+  .main-about h3 {
+    font-size: 20px;
   }
 }
