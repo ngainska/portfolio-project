@@ -235,7 +235,7 @@ span {
 }
 
 .about-img {
-  width: 200px;
+  width: 150px;
 }
 
 .profileText {
@@ -248,4 +248,15 @@ span {
   box-shadow: var(--button-box);
   padding: 5px;
   margin: 30px;
+}
+
+.main-about h1 {
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+}
+.main-about h2 {
+  font-size: 25px;
+}
+.main-about h3 {
+  font-size: 20px;
 }
