@@ -14,6 +14,11 @@
   border-radius: 50px;
 }
 
+.navbar-brand img:hover {
+  background-color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+
 .hero {
   background-color: black;
   text-align: start;
@@ -23,7 +28,7 @@
 }
 
 .hero h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-family: var(--font);
   line-height: 80px;
 }
@@ -149,6 +154,16 @@ p {
   box-shadow: var(--button-box);
   border: 10px solid white;
   border-radius: 2px;
+}
+
+.project {
+  padding: 80px 130px 50px 130px;
+}
+.project img {
+  width: 90%;
+  padding: 20px auto;
+  margin: 20px auto;
+  display: block;
 }
 
 @media (max-width: 576px) {
