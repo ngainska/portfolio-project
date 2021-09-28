@@ -246,7 +246,7 @@ video {
   }
 }
 
-span {
+.main-title {
   animation: blinker 1s linear infinite;
 }
 
