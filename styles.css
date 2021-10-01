@@ -145,6 +145,20 @@ p {
   color: white;
   font-family: "play", sans-serif;
 }
+.contact-about {
+  background-color: var(--primary-color);
+  padding: 120px 20px 30px 20px;
+  color: white;
+  font-family: var(--font);
+}
+.contact-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.script.contactpage {
+  font-family: "play", sans-serif;
+}
 
 #profile {
   justify-content: center;
@@ -281,4 +295,10 @@ video {
 }
 .main-about h3 {
   font-size: 20px;
+}
+
+.email-link {
+  text-align: center;
+  text-decoration: none;
+  color: #212529;
 }
