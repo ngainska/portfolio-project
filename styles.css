@@ -28,7 +28,7 @@
 }
 
 .hero h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: var(--font);
   line-height: 80px;
 }
@@ -156,6 +156,7 @@ p {
   color: white;
   font-family: "play", sans-serif;
 }
+
 .contact-about {
   background-color: var(--primary-color);
   padding: 120px 20px 30px 20px;
@@ -255,12 +256,15 @@ video {
   }
 
   .main-about {
-    padding: 100px 50px 30px 20px;
+    padding: 100px 20px 30px 20px;
     text-align: center;
-    width: 107%;
+    width: 100%;
   }
-  .main-about h3 {
-    font-size: 20px;
+  .main-about h1 {
+    font-size: 15px;
+  }
+  .main-about p {
+    font-size: 15px;
   }
 
   .about-img {
@@ -268,16 +272,6 @@ video {
     margin: auto;
     justify-content: center;
     align-items: center;
-  }
-}
-
-.main-title {
-  animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
   }
 }
 
@@ -298,18 +292,33 @@ video {
 }
 
 .main-about h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Press Start 2P", cursive;
 }
 .main-about h2 {
   font-size: 25px;
 }
-.main-about h3 {
-  font-size: 20px;
+.main-about p {
+  font-size: 17px;
 }
 
 .email-link {
   text-align: center;
   text-decoration: none;
   color: #212529;
+}
+
+.main-title {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.project h2 {
+  font-family: var(--font);
+  font-size: 25px;
 }
